@@ -1,21 +1,27 @@
 class twosum
 {
-    static void twosum(int[] arr,int target)
+     int[] twosum(int[] arr,int target)
     {
         for(int i=0;i<arr.length;i++)
         {
-            System.out.print(arr[i]+"i ");
-
             for(int j=i+1;j<arr.length;j++)
             {
-                System.out.print(arr[j]+" j ");
+                if(arr[i]+arr[j]==target)
+                {
+                    return new int[]{i,j};
+                }
             }
-            System.out.println();
         }
+        return new int[]{};
     }
     public static void main(String[] args) {
         int a[]={1,2,3,4};
-        twosum(a,3);
+        twosum t =new twosum();
+        int t1[]=t.twosum(a,5);
+        for(int i=0;i<t1.length;i++)
+        {
+            System.out.print(t1[i]+" ");
+        }
     }
 }
 
