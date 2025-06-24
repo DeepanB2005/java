@@ -1,0 +1,48 @@
+patterns
+PS C:\Deepan B\java\patterns> java p1.java
+5
+*****
+*****
+*****
+*****
+*****
+PS C:\Deepan B\java\patterns> java p2.java
+5
+*
+**
+***
+****
+*****
+PS C:\Deepan B\java\patterns> java p3.java
+5
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+PS C:\Deepan B\java\patterns> java p4.java
+5
+    *
+   ***
+  *****
+ *******
+*********
+*********
+ *******
+  *****
+   ***
+    *
+PS C:\Deepan B\java\patterns> java p5.java
+*
+**
+***
+****
+*****
+****
+***
+**
+*
