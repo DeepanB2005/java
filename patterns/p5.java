@@ -1,25 +1,20 @@
 package patterns;
-
-public class p5 {
-    // 8
-    // 88
-    // 888
-    // 88
-    // 8
+class p5
+{
     public static void main(String[] args) {
         int n=9;
-        int star=0;
+        int s=0;
         for(int i=0;i<n;i++)
         {
-            if(i>n/2)
+            if(i<n/2)
             {
-                star--;
+                s++;
             }
-            else{
-                star++;
+            else
+            {
+                s--;
             }
-
-            for(int j=0;j<star;j++)
+            for(int j=0;j<s;j++)
             {
                 System.out.print("*");
             }
