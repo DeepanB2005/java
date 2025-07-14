@@ -9,6 +9,7 @@ class NtoOne
         {
             return;
         }
-
+        System.out.println(n);
+        rec(n-1);
     }
 }
