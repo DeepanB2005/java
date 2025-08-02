@@ -1,4 +1,3 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
 public class fibonacci {
    
       public static void main(String[] args) {
@@ -7,7 +6,6 @@ public class fibonacci {
         int a=0;
         int b=1;
         int c=0;
-
         while(t<co)
         {
             c=a+b;
