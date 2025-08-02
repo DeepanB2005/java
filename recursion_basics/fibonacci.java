@@ -8,9 +8,9 @@ public class fibonacci {
         return rec(n-1)+rec(n-2);
     }
     public static void main(String[] args) {
-        System.out.println(rec(10));
+        System.out.println(rec(5));
     }
 }
 
 
-0112358 13 21 34
+// 0112358 13 21 34

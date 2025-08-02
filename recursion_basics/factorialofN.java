@@ -11,4 +11,5 @@ public class factorialofN {
         return n*rec(n-1);
         
     }
-}
+} 
+// 5*4*3*2*1        
