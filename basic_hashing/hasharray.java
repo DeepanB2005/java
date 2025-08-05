@@ -9,21 +9,27 @@ class hash
         int a[]=new int[n];//normal array
         for(int i=0;i<n;i++)
         {
-            a[i]=sc.nectInt();
+            a[i]=sc.nextInt();
+        }
+
+         for(int i:a)
+        {
+            System.out.print(i);
         }
 
         int hash[] = new int[11];
 
-        for(int i=0;i<hash.length;i++)
+        for(int i=0;i<n;i++)
         {
             hash[a[i]]+=1;
         }
-        int ip=sc.nextInt;
+        int ip=sc.nextInt();
 
-        while(ip--)
+        while(ip>0)
         {
-            int i=sc.nextInt;
+            int i=sc.nextInt();
             System.out.println(hash[i]);
+            ip--;
         }
     }
 }
