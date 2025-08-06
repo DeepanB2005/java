@@ -23,13 +23,10 @@ class hash
         {
             hash[a[i]]+=1;
         }
-        int ip=sc.nextInt();
 
-        while(ip>0)
+        for(int i:hash)
         {
-            int i=sc.nextInt();
-            System.out.println(hash[i]);
-            ip--;
+            System.out.print(i+" ");
         }
     }
 }
