@@ -10,7 +10,7 @@ class selenagomez
         {
             a[i]=sc.nextInt();
         }
-        //selection
+        //selecting min
         for(int i=0;i<n-1;i++)
         {
             int min=i;
