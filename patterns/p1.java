@@ -1,6 +1,6 @@
 package patterns;
 import java.util.Scanner;
-class p1
+class p11
 {
     // ***
     // ***
